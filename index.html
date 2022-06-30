@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maverick</title>
+    <link href="./CSS/main.css" rel="stylesheet"/>
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  
+</head>
+    <!--Landing Page-->
+<body>
+    <div id="app">
+        <div>
+            <img :class="gender" v-bind:src="picture" :alt="`${firstName} ${lastName}`"/>
+            <h1>{{firstName}} {{lastName}}</h1>
+            <h3>Email: {{email}}</h3>
+            <button :class="gender" > Get Random User</button>
+            
+        </div>
+    </div>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="./JS/app.js"></script>
+</body>
+</html>
